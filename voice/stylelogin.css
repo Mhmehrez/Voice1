@@ -5,7 +5,6 @@
     color: white;
 }
 
-
 header {
     margin: 0;
     padding: 4px;
@@ -52,6 +51,7 @@ header h3 {
     height: 759px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
 }
 
 .singin h1 {
@@ -78,16 +78,15 @@ header h3 {
 
 
 .enter input {
-    float: right;
     cursor: pointer;
-    display: block;
+    display: flex;
     font-family: "Mulish-Bold", Helvetica;
     font-weight: 700;
     color: #2c2f34;
     background-color: #7289d9;
     font-size: 16px;
     border-radius: 10px;
-    margin: 20px 10px 0 0;
+    margin: 10px 10px 0 240px;
     transition: 0.4s ease;
     width: 180px;
 }
@@ -99,8 +98,9 @@ header h3 {
 }
 
 .forget {
-    margin: 27px;
-    position: fixed;
+    margin: 20px 0 0 27px;
+    padding: 0;
+    float: left;
     text-decoration: none;
     font-family: "Mulish-Bold", Helvetica;
     font-weight: 300;
@@ -115,7 +115,7 @@ header h3 {
     left: 0;
     font-family: "Mulish-Regular", Helvetica;
     font-weight: 400;
-    margin: 460px 0 0 140px;
+    margin: 160px 0 0 140px;
 }
 
 #foot p {

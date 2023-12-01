@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesingup.css">
+
+    <title>вход</title>
+</head>
+
+<body>
+    <header>
+        <h3>Voice</h3>
+        <nav>
+            <div>
+                <button class="direction">
+                    <img src="/Img/exit.png" alt="" class="exit">
+                </button>
+            </div>
+            <div>
+                <button class="direction">
+                    <img src="/Img/max.png" alt="">
+                </button>
+            </div>
+            <div>
+                <button class="direction">
+                    <img src="/Img/min.png" alt="">
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="singin">
+            <div class="voice">
+                <h1>Voice</h1>
+            </div>
+            <div>
+                <label for="">E-mail</label>
+                <br>
+                <input type="email" placeholder="my-personal@email.ru">
+            </div>
+            <div>
+                <label for="">Логин</label>
+                <br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Пароль</label>
+                <br>
+                <input type="password">
+            </div>
+            <div id="birthday">
+                <label for="">Дата рождения</label>
+                <br>
+                <input type="number" min="1" max="31" placeholder="Дата">
+                <input type="number" min="1" max="12" placeholder="Месяц">
+                <input type="number" min="1900" max="2023" placeholder="Год">
+            </div>
+            <div class="enter" >
+                <input type="submit" value="Войти" ></input>
+            </div>
+            <div id="foot">
+                <p>У вас уже есть аккаунт?</p>
+                <a href="login.html">Войти</a>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>

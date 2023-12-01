@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #2C2F34;
+    color: white;
+}
+
+
+header {
+    margin: 0;
+    padding: 4px;
+    width: auto;
+    height: 24px;
+    background-color: #23272A;
+}
+
+header h3 {
+    padding: 2px 0 0 7px;
+    font-family: "Mulish-Medium", Helvetica;
+    font-weight: 500;
+    color: #99aab4;
+    font-size: 18px;
+    background-color: #23272A;
+    float: left;
+
+}
+
+.direction {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 2px;
+    padding: 1px;
+    border: none;
+    background-color: #23272A;
+}
+
+.exit:hover {
+    background-color: #962828;
+}
+
+.direction img {
+    width: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.singin {
+    display: block;
+    width: 441px;
+    height: 759px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.singin h1 {
+    text-align: center;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 600;
+    color: #7289d9;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.singin label {
+    font-family: "Mulish-Regular", Helvetica;
+    font-weight: 400;
+    color: #7289d9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 5px 0 7px 15px;
+}
+
+.singin input {
+    width: 420px;
+    height: 40px;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    background-color: #3E444E;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+#birthday input {
+    width: 130px;
+    margin: 20px 0 0 10px;
+}
+
+.enter input {
+    float: right;
+    cursor: pointer;
+    display: block;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c2f34;
+    background-color: #7289d9;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 20px 10px 0 0;
+    transition: 0.4s ease;
+    width: 180px;
+}
+
+.enter input:hover {
+    box-shadow: 1px 1px 10px 1px #7289d9;
+    transform: scale(1.01);
+    transition: 0.9s ease;
+}
+
+.enter input:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#foot {
+    display: inline-block;
+    width: 192px;
+    top: 0;
+    left: 0;
+    font-family: "Mulish-Regular", Helvetica;
+    font-weight: 400;
+    margin: 220px 0 0 130px;
+}
+
+#foot p {
+    color: #99aab4;
+}
+
+#foot a {
+    text-decoration: none;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    color: #7289d9;
+    display: flex;
+    margin-left: 57px;
+}

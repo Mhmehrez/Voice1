@@ -79,7 +79,7 @@ header h3 {
 
 .enter input {
     cursor: pointer;
-    display: flex;
+    display: block;
     font-family: "Mulish-Bold", Helvetica;
     font-weight: 700;
     color: #2c2f34;
